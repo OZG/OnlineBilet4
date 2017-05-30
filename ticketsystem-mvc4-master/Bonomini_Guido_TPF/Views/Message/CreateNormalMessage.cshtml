@@ -1,0 +1,82 @@
+﻿@model Bonomini_Guido_TPF.Models.Message
+
+@{
+    ViewBag.Title = "CreateNormalMessage";
+}
+
+<h2>Send Message</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Message</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageSubject)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MessageSubject)
+            @Html.ValidationMessageFor(model => model.MessageSubject)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageContent)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MessageContent)
+            @Html.ValidationMessageFor(model => model.MessageContent)
+        </div>
+
+        <div class="editor-label" hidden="hidden">
+            @Html.LabelFor(model => model.MessageType)
+        </div>
+        <div class="editor-field" hidden="hidden">
+            @Html.EditorFor(model => model.MessageType)
+            @Html.ValidationMessageFor(model => model.MessageType)
+        </div>
+
+        <div class="editor-label" hidden="hidden">
+            @Html.LabelFor(model => model.MessageUserName)
+        </div>
+        <div class="editor-field" hidden="hidden">
+            @Html.EditorFor(model => model.MessageUserName)
+            @Html.ValidationMessageFor(model => model.MessageUserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageReceptorID, "Send to: ")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("MessageReceptorID", String.Empty)
+            @Html.ValidationMessageFor(model => model.MessageReceptorID)
+        </div>
+
+        <p>
+            <input type="submit" value="Send" />
+        </p>
+    </fieldset>
+}
+
+@if (int.Parse(Session["LogedUserRoleID"].ToString()) == 3)
+{
+    <div>
+    @Html.ActionLink("Return to Manager Home Page", "ManagerHome", "Home")
+    </div>
+}
+else if (int.Parse(Session["LogedUserRoleID"].ToString()) == 2)
+{
+    <div>
+    @Html.ActionLink("Return to Employee Home Page", "EmployeeHome", "Home")
+    </div>
+}
+else if (int.Parse(Session["LogedUserRoleID"].ToString()) == 1)
+{
+    <div>
+    @Html.ActionLink("Return to User Home Page", "UserHome", "Home")
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

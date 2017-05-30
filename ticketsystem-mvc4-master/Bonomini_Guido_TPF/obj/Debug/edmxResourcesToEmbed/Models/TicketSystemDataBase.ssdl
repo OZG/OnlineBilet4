@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TicketSystemModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="TicketSystemModelStoreContainer">
+    <EntitySet Name="Category" EntityType="TicketSystemModel.Store.Category" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Message" EntityType="TicketSystemModel.Store.Message" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Priority" EntityType="TicketSystemModel.Store.Priority" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Role" EntityType="TicketSystemModel.Store.Role" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="State" EntityType="TicketSystemModel.Store.State" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ticket" EntityType="TicketSystemModel.Store.Ticket" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="User" EntityType="TicketSystemModel.Store.User" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Message_User" Association="TicketSystemModel.Store.FK_Message_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_Category" Association="TicketSystemModel.Store.FK_Ticket_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_Priority" Association="TicketSystemModel.Store.FK_Ticket_Priority">
+      <End Role="Priority" EntitySet="Priority" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_State" Association="TicketSystemModel.Store.FK_Ticket_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_User" Association="TicketSystemModel.Store.FK_Ticket_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role" Association="TicketSystemModel.Store.FK_User_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MessageSubject" Type="varchar" MaxLength="50" />
+    <Property Name="MessageContent" Type="varchar" MaxLength="250" />
+    <Property Name="MessageType" Type="varchar" MaxLength="10" />
+    <Property Name="MessageUserName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="MessageReceptorID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Priority">
+    <Key>
+      <PropertyRef Name="PriorityID" />
+    </Key>
+    <Property Name="PriorityID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PriorityType" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StateID" />
+    </Key>
+    <Property Name="StateID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StateName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+    <Property Name="SubjectName" Type="varchar" MaxLength="50" />
+    <Property Name="PersistenceTime" Type="float" />
+    <Property Name="ProblemDetail" Type="varchar" MaxLength="100" />
+    <Property Name="PriorityID" Type="int" />
+    <Property Name="StateID" Type="int" Nullable="false" />
+    <Property Name="TicketUserName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="UserInChargeID" Type="int" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="4" />
+    <Property Name="RoleID" Type="int" Nullable="false" />
+    <Property Name="Area" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Message_User">
+    <End Role="User" Type="TicketSystemModel.Store.User" Multiplicity="1" />
+    <End Role="Message" Type="TicketSystemModel.Store.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="MessageReceptorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_Category">
+    <End Role="Category" Type="TicketSystemModel.Store.Category" Multiplicity="1" />
+    <End Role="Ticket" Type="TicketSystemModel.Store.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_Priority">
+    <End Role="Priority" Type="TicketSystemModel.Store.Priority" Multiplicity="0..1" />
+    <End Role="Ticket" Type="TicketSystemModel.Store.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Priority">
+        <PropertyRef Name="PriorityID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="PriorityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_State">
+    <End Role="State" Type="TicketSystemModel.Store.State" Multiplicity="1" />
+    <End Role="Ticket" Type="TicketSystemModel.Store.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="StateID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="StateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_User">
+    <End Role="User" Type="TicketSystemModel.Store.User" Multiplicity="0..1" />
+    <End Role="Ticket" Type="TicketSystemModel.Store.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="UserInChargeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role">
+    <End Role="Role" Type="TicketSystemModel.Store.Role" Multiplicity="1" />
+    <End Role="User" Type="TicketSystemModel.Store.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

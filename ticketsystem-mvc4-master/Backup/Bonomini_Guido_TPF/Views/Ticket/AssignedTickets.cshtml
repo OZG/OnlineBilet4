@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Bonomini_Guido_TPF.Models.Ticket>
+
+@{
+    ViewBag.Title = "AssignedTickets";
+}
+
+<h2>Assigned Tickets</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PersistenceTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProblemDetail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Priority.PriorityType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.State.StateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketUserName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category.CategoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PersistenceTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProblemDetail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Priority.PriorityType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.State.StateName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketUserName)
+        </td>
+        <td>
+            @Html.ActionLink("Close Ticket", "CloseTicket", new { id=item.TicketID })
+        </td>
+    </tr>
+}
+
+</table>
+
+@if (int.Parse(Session["LogedUserRoleID"].ToString()) == 3)
+{
+<div>
+    @Html.ActionLink("Return to Manager Home Page", "ManagerHome", "Home")
+</div>
+}
+else if (int.Parse(Session["LogedUserRoleID"].ToString()) == 2)
+{
+    <div>
+    @Html.ActionLink("Return to Employee Home Page", "EmployeeHome", "Home")
+    </div>
+}

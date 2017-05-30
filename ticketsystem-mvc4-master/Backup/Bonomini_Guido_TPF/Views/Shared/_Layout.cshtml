@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <img src="~/Content/banner-03.jpg" alt="Banner" style="width:100%;height:800px;">
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+
+    <footer>
+            <div class="wrapper" style="width:500px; height:500px;">
+                <div style="position: fixed; bottom:5px; width: 100%; left:0px; height:25px;">
+                    <center>&copy; @DateTime.Now.Year - Bonomini Guido TPF</center>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

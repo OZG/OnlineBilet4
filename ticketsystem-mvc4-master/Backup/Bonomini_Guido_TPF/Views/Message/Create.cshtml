@@ -1,0 +1,67 @@
+﻿@model Bonomini_Guido_TPF.Models.Message
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Message</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageSubject)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MessageSubject)
+            @Html.ValidationMessageFor(model => model.MessageSubject)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageContent)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MessageContent)
+            @Html.ValidationMessageFor(model => model.MessageContent)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageType)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MessageType)
+            @Html.ValidationMessageFor(model => model.MessageType)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageUserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MessageUserName)
+            @Html.ValidationMessageFor(model => model.MessageUserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MessageReceptorID, "User")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("MessageReceptorID", String.Empty)
+            @Html.ValidationMessageFor(model => model.MessageReceptorID)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

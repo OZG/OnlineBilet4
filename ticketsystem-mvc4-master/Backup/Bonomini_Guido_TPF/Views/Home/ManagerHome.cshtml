@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "ManagerHome";
+}
+
+<h2>Manager Home Page</h2>
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Bonomini Guido TPF</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div id ="log">
+            <p class="site-title">@Html.ActionLink("Logout","Logout", "User")</p>
+        </div>
+        <header>
+                <div class="float-center">
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Ticket Manager", "TicketManager", "Ticket")</li>
+                            <li>@Html.ActionLink("Messages", "MessagesControlPanel", "Message")</li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - Bonomini Guido TPF</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+    </body>
+</html>

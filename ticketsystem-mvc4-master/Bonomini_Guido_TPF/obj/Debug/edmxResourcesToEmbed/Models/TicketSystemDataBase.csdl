@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TicketSystemModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TicketSystemEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Category" EntityType="TicketSystemModel.Category" />
+    <EntitySet Name="Message" EntityType="TicketSystemModel.Message" />
+    <EntitySet Name="Priority" EntityType="TicketSystemModel.Priority" />
+    <EntitySet Name="Role" EntityType="TicketSystemModel.Role" />
+    <EntitySet Name="State" EntityType="TicketSystemModel.State" />
+    <EntitySet Name="Ticket" EntityType="TicketSystemModel.Ticket" />
+    <EntitySet Name="User" EntityType="TicketSystemModel.User" />
+    <AssociationSet Name="FK_Ticket_Category" Association="TicketSystemModel.FK_Ticket_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Message_User" Association="TicketSystemModel.FK_Message_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_Priority" Association="TicketSystemModel.FK_Ticket_Priority">
+      <End Role="Priority" EntitySet="Priority" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role" Association="TicketSystemModel.FK_User_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_State" Association="TicketSystemModel.FK_Ticket_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_User" Association="TicketSystemModel.FK_Ticket_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Ticket" Relationship="TicketSystemModel.FK_Ticket_Category" FromRole="Category" ToRole="Ticket" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="MessageSubject" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MessageContent" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="MessageType" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="MessageUserName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MessageReceptorID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="TicketSystemModel.FK_Message_User" FromRole="Message" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Priority">
+    <Key>
+      <PropertyRef Name="PriorityID" />
+    </Key>
+    <Property Name="PriorityID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="PriorityType" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Ticket" Relationship="TicketSystemModel.FK_Ticket_Priority" FromRole="Priority" ToRole="Ticket" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="User" Relationship="TicketSystemModel.FK_User_Role" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StateID" />
+    </Key>
+    <Property Name="StateID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="StateName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Ticket" Relationship="TicketSystemModel.FK_Ticket_State" FromRole="State" ToRole="Ticket" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryID" Type="Int32" Nullable="false" />
+    <Property Name="SubjectName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PersistenceTime" Type="Double" />
+    <Property Name="ProblemDetail" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PriorityID" Type="Int32" />
+    <Property Name="StateID" Type="Int32" Nullable="false" />
+    <Property Name="TicketUserName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UserInChargeID" Type="Int32" />
+    <NavigationProperty Name="Category" Relationship="TicketSystemModel.FK_Ticket_Category" FromRole="Ticket" ToRole="Category" />
+    <NavigationProperty Name="Priority" Relationship="TicketSystemModel.FK_Ticket_Priority" FromRole="Ticket" ToRole="Priority" />
+    <NavigationProperty Name="State" Relationship="TicketSystemModel.FK_Ticket_State" FromRole="Ticket" ToRole="State" />
+    <NavigationProperty Name="User" Relationship="TicketSystemModel.FK_Ticket_User" FromRole="Ticket" ToRole="User" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <Property Name="Area" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Message" Relationship="TicketSystemModel.FK_Message_User" FromRole="User" ToRole="Message" />
+    <NavigationProperty Name="Role" Relationship="TicketSystemModel.FK_User_Role" FromRole="User" ToRole="Role" />
+    <NavigationProperty Name="Ticket" Relationship="TicketSystemModel.FK_Ticket_User" FromRole="User" ToRole="Ticket" />
+  </EntityType>
+  <Association Name="FK_Ticket_Category">
+    <End Role="Category" Type="TicketSystemModel.Category" Multiplicity="1" />
+    <End Role="Ticket" Type="TicketSystemModel.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Message_User">
+    <End Role="User" Type="TicketSystemModel.User" Multiplicity="1" />
+    <End Role="Message" Type="TicketSystemModel.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="MessageReceptorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_Priority">
+    <End Role="Priority" Type="TicketSystemModel.Priority" Multiplicity="0..1" />
+    <End Role="Ticket" Type="TicketSystemModel.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Priority">
+        <PropertyRef Name="PriorityID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="PriorityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role">
+    <End Role="Role" Type="TicketSystemModel.Role" Multiplicity="1" />
+    <End Role="User" Type="TicketSystemModel.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_State">
+    <End Role="State" Type="TicketSystemModel.State" Multiplicity="1" />
+    <End Role="Ticket" Type="TicketSystemModel.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="StateID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="StateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_User">
+    <End Role="User" Type="TicketSystemModel.User" Multiplicity="0..1" />
+    <End Role="Ticket" Type="TicketSystemModel.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="UserInChargeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

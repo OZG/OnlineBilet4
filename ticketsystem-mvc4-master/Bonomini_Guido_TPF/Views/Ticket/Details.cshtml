@@ -1,0 +1,71 @@
+﻿@model Bonomini_Guido_TPF.Models.Ticket
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Ticket</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Category.CategoryName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Category.CategoryName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SubjectName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SubjectName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PersistenceTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PersistenceTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ProblemDetail)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ProblemDetail)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Priority.PriorityType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Priority.PriorityType)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.State.StateName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State.StateName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TicketUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TicketUserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.User.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.User.UserName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.TicketID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

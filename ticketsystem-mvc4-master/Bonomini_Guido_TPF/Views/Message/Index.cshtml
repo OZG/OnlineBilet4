@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Bonomini_Guido_TPF.Models.Message>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageSubject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageContent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageSubject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageContent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.UserName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MessageID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MessageID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MessageID })
+        </td>
+    </tr>
+}
+
+</table>

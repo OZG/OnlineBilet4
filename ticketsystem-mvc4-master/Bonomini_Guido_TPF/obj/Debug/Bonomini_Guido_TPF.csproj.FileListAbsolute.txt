@@ -1,0 +1,187 @@
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.pdb
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Antlr3.Runtime.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Microsoft.Web.Infrastructure.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Optimization.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Providers.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\WebGrease.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.xml
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.xml
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.xml
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.xml
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.xml
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.xml
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.xml
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.dll
+c:\users\guido\documents\visual studio 2012\Projects\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.pdb
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.pdb
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Antlr3.Runtime.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Optimization.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Providers.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\WebGrease.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.xml
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.xml
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.xml
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.xml
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.xml
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.xml
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.dll
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.pdb
+C:\Users\Guido\Desktop\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.csprojResolveAssemblyReference.cache
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.pdb
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Antlr3.Runtime.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Net.Http.Formatting.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Http.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Http.WebHost.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Optimization.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Providers.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\WebGrease.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Net.Http.Formatting.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Http.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Http.WebHost.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.dll
+C:\Users\Alumno\Downloads\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.pdb
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.pdb
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Antlr3.Runtime.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Optimization.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Providers.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\WebGrease.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.xml
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.xml
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.xml
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.xml
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.xml
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.xml
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.csprojResolveAssemblyReference.cache
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.dll
+C:\Users\Guido\Documents\Visual Studio 2012\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.pdb
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll.config
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.pdb
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Antlr3.Runtime.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Optimization.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Providers.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\WebGrease.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\EntityFramework.xml
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\Newtonsoft.Json.xml
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Mvc.xml
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.Razor.xml
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.xml
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.xml
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.csprojResolveAssemblyReference.cache
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.dll
+C:\Users\Guido\Documents\Visual Studio 2013\Projects\Trabajos Prácticos\Bonomini_Guido_TPF\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.pdb
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll.config
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.pdb
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Antlr3.Runtime.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\EntityFramework.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Newtonsoft.Json.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Net.Http.Formatting.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.WebHost.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Mvc.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Optimization.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Providers.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Razor.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\WebGrease.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\EntityFramework.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Newtonsoft.Json.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Net.Http.Formatting.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.WebHost.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Mvc.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Razor.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.csprojResolveAssemblyReference.cache
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.dll
+C:\Users\Ozg\Desktop\ticketsystem-mvc4-master\ticketsystem-mvc4-master\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.pdb
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll.config
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Bonomini_Guido_TPF.pdb
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Antlr3.Runtime.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\EntityFramework.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Newtonsoft.Json.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Net.Http.Formatting.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.WebHost.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Mvc.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Optimization.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Providers.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Razor.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\WebGrease.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\EntityFramework.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\Newtonsoft.Json.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Net.Http.Formatting.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Http.WebHost.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Mvc.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.Razor.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.csprojResolveAssemblyReference.cache
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.dll
+C:\Users\Ozg\Documents\GitHub\OnlineBilet\ticketsystem-mvc4-master\Bonomini_Guido_TPF\obj\Debug\Bonomini_Guido_TPF.pdb

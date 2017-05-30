@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "MessagesControlPanel";
+}
+
+<h2>Messages Control Panel</h2>
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Bonomini Guido TPF</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+                <div class="float-right">
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Message Box", "ViewMessages", "Message")</li>
+
+                            @if (int.Parse(Session["LogedUserRoleID"].ToString()) != 1)
+                            {
+                            <li>@Html.ActionLink("Send Internal Message", "CreateInternalMessage", "Message")</li>
+                            }
+
+                            <li>@Html.ActionLink("Send Message", "CreateNormalMessage", "Message")</li>
+                        </ul>
+                    </nav>
+                </div>
+             @if (int.Parse(Session["LogedUserRoleID"].ToString()) == 3)
+             {
+               <div>
+                 @Html.ActionLink("Return to Manager Home Page", "ManagerHome", "Home")
+               </div>
+             }
+             else if (int.Parse(Session["LogedUserRoleID"].ToString()) == 2)
+             {
+                 <div>
+                 @Html.ActionLink("Return to Employee Home Page", "EmployeeHome", "Home")
+                 </div>
+             }
+             else if (int.Parse(Session["LogedUserRoleID"].ToString()) == 1)
+             {
+                 <div>
+                 @Html.ActionLink("Return to User Home Page", "UserHome", "Home")
+                 </div>
+             }
+        </header>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - Bonomini Guido TPF</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+    </body>
+</html>

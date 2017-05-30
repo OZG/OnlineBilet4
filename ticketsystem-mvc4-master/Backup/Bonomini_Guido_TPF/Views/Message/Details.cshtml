@@ -1,0 +1,50 @@
+﻿@model Bonomini_Guido_TPF.Models.Message
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Message</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MessageSubject)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MessageSubject)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MessageContent)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MessageContent)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MessageType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MessageType)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MessageUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MessageUserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.User.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.User.UserName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.MessageID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

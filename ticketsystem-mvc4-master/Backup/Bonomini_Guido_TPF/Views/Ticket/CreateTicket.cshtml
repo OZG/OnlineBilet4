@@ -1,0 +1,91 @@
+﻿@model Bonomini_Guido_TPF.Models.Ticket
+
+@{
+    ViewBag.Title = "CreateTicket";
+}
+
+<h2>Create Ticket</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Ticket</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CategoryID, "Category")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("CategoryID", String.Empty)
+            @Html.ValidationMessageFor(model => model.CategoryID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SubjectName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SubjectName)
+            @Html.ValidationMessageFor(model => model.SubjectName)
+        </div>
+
+        <div class="editor-label" hidden="hidden">
+            @Html.LabelFor(model => model.PersistenceTime)
+        </div>
+        <div class="editor-field" hidden="hidden">
+            @Html.EditorFor(model => model.PersistenceTime)
+            @Html.ValidationMessageFor(model => model.PersistenceTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ProblemDetail)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ProblemDetail)
+            @Html.ValidationMessageFor(model => model.ProblemDetail)
+        </div>
+
+        <div class="editor-label" hidden="hidden">
+            @Html.LabelFor(model => model.PriorityID, "Priority")
+        </div>
+        <div class="editor-field" hidden="hidden">
+            @Html.DropDownList("PriorityID", String.Empty)
+            @Html.ValidationMessageFor(model => model.PriorityID)
+        </div>
+
+        <div class="editor-label" hidden="hidden">
+            @Html.LabelFor(model => model.StateID, "State")
+        </div>
+        <div class="editor-field" hidden="hidden">
+            @Html.DropDownList("StateID", String.Empty)
+            @Html.ValidationMessageFor(model => model.StateID)
+        </div>
+
+        <div class="editor-label" hidden="hidden">
+            @Html.LabelFor(model => model.TicketUserName)
+        </div>
+        <div class="editor-field" hidden="hidden">
+            @Html.EditorFor(model => model.TicketUserName)
+            @Html.ValidationMessageFor(model => model.TicketUserName)
+        </div>
+
+        <div class="editor-label" hidden="hidden">
+            @Html.LabelFor(model => model.UserInChargeID, "User")
+        </div>
+        <div class="editor-field" hidden="hidden">
+            @Html.DropDownList("UserInChargeID", String.Empty)
+            @Html.ValidationMessageFor(model => model.UserInChargeID)
+        </div>
+
+        <p>
+            <input type="submit" value="Create Ticket" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Returno to User Home Page", "UserHome", "Home")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,140 @@
+﻿body {
+    background-color: #F2F2F2;
+    border-top: solid 10px #000;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    text-align:left;
+}
+
+h2 {
+    text-align:center;
+    font-size:xx-large;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+     border: 1px solid black;
+     border-collapse: collapse;
+
+}
+
+input{
+    font-size:large;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+tr {
+    color: black;
+    font-family:"Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-size: large;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+
+td {
+    height: 50px;
+    font-family:"Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    text-align:left;
+    font-size:x-large;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+div{
+    color: black;
+    font-family:"Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-size: large;
+}
+
+#menu {
+    text-align:left;
+    font-size:large;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+
+#log {
+    text-align:right; 
+    font-size:xx-large;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+#login{
+    display: block;
+    text-align:center;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
